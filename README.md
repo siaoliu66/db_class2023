@@ -74,3 +74,46 @@ python app.py
 - 輸入http://localhost:15000/進入首頁。
 - 首次使用請點選註冊按鈕，並註冊帳號。
 - 註冊後，點選登入即可進入頁面。
+
+--------------------------------------------------------------------------------------------------------
+
+# DBMS2022-ebookStore
+An example database application system with Python Flask + SQLite
+## 專案建立 Repository Setup
+### 1. 建立虛擬環境並執行 Create a fresh virtual enviroment and activate it.
+MacOS / Linux
+```
+python3 -m pip install virtualenv
+virtualenv venv
+source venv/bin/activate
+```
+Windows
+```
+pip install virtualenv
+virtualenv venv
+./venv/scripts/activate
+```
+Appendix: Deactivate virtual enviroment
+```
+deactivate
+```
+### 2. 複製專案、安裝套件 Clone the repo and install all dependencies.
+MacOS / Linux
+```
+git clone https://github.com/Text-Analytics-and-Retrieval/DBMS2022-ebookStore.git
+python3 -m pip install -r requirements.txt
+```
+Windows
+```
+git clone https://github.com/Text-Analytics-and-Retrieval/DBMS2022-ebookStore.git
+pip install -r requirements.txt
+```
+### 3. 啟動程式 Running app.py
+Using the command below and visit the running website
+```
+python app.py
+```
+## Tools
+DB Browser for SQLite
+Visit the [website](https://sqlitebrowser.org/) for GUI tool to manage SQLite database.
+
